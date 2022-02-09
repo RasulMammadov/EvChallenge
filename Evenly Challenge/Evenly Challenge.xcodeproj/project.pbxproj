@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA5837827B4341F00AA7756 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5837727B4341F00AA7756 /* MapView.swift */; };
+		2CA5837A27B4348C00AA7756 /* FoursquareLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5837927B4348C00AA7756 /* FoursquareLink.swift */; };
+		2CA5837C27B434F300AA7756 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5837B27B434F300AA7756 /* HomePageView.swift */; };
+		2CA7604727B46CCD0016623B /* FoursquareAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7604627B46CCD0016623B /* FoursquareAPI.swift */; };
+		2CA7604B27B46D0A0016623B /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7604A27B46D0A0016623B /* LocationManager.swift */; };
+		2CA7604D27B46D370016623B /* PersistencyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7604C27B46D370016623B /* PersistencyManager.swift */; };
+		2CA7605027B46D860016623B /* AnnotationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7604F27B46D860016623B /* AnnotationType.swift */; };
+		2CA7605427B46DB50016623B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7605327B46DB50016623B /* Constants.swift */; };
+		2CA7605827B46E420016623B /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7605727B46E420016623B /* Photo.swift */; };
+		2CA7605C27B46E750016623B /* SearchType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA7605B27B46E750016623B /* SearchType.swift */; };
+		2CCEE5C327B1995100461EFB /* Evenly_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEE5C227B1995100461EFB /* Evenly_ChallengeApp.swift */; };
+		2CCEE5C727B1995100461EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCEE5C627B1995100461EFB /* Assets.xcassets */; };
+		2CCEE5CA27B1995100461EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCEE5C927B1995100461EFB /* Preview Assets.xcassets */; };
+		2CCEE5D527B1D5E900461EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCEE5D427B1D5E900461EFB /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CA5837727B4341F00AA7756 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2CA5837927B4348C00AA7756 /* FoursquareLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareLink.swift; sourceTree = "<group>"; };
+		2CA5837B27B434F300AA7756 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		2CA7604627B46CCD0016623B /* FoursquareAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoursquareAPI.swift; sourceTree = "<group>"; };
+		2CA7604A27B46D0A0016623B /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2CA7604C27B46D370016623B /* PersistencyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencyManager.swift; sourceTree = "<group>"; };
+		2CA7604F27B46D860016623B /* AnnotationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationType.swift; sourceTree = "<group>"; };
+		2CA7605327B46DB50016623B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2CA7605727B46E420016623B /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		2CA7605B27B46E750016623B /* SearchType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchType.swift; sourceTree = "<group>"; };
+		2CCEE5BF27B1995100461EFB /* Evenly Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evenly Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CCEE5C227B1995100461EFB /* Evenly_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evenly_ChallengeApp.swift; sourceTree = "<group>"; };
+		2CCEE5C627B1995100461EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CCEE5C927B1995100461EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CCEE5D427B1D5E900461EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CCEE5BC27B1995100461EFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA5838A27B4540200AA7756 /* Map views */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5837727B4341F00AA7756 /* MapView.swift */,
+			);
+			path = "Map views";
+			sourceTree = "<group>";
+		};
+		2CA5838B27B4541200AA7756 /* Main view */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5837B27B434F300AA7756 /* HomePageView.swift */,
+			);
+			path = "Main view";
+			sourceTree = "<group>";
+		};
+		2CA7604327B46C7C0016623B /* VenuesServices */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7604627B46CCD0016623B /* FoursquareAPI.swift */,
+				2CA7604A27B46D0A0016623B /* LocationManager.swift */,
+				2CA7604C27B46D370016623B /* PersistencyManager.swift */,
+			);
+			path = VenuesServices;
+			sourceTree = "<group>";
+		};
+		2CA7604E27B46D440016623B /* VenuesModel */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7604F27B46D860016623B /* AnnotationType.swift */,
+				2CA7605327B46DB50016623B /* Constants.swift */,
+				2CA7605727B46E420016623B /* Photo.swift */,
+				2CA7605B27B46E750016623B /* SearchType.swift */,
+			);
+			path = VenuesModel;
+			sourceTree = "<group>";
+		};
+		2CA7606127B47BF10016623B /* Foursquare Link */ = {
+			isa = PBXGroup;
+			children = (
+				2CA5837927B4348C00AA7756 /* FoursquareLink.swift */,
+			);
+			path = "Foursquare Link";
+			sourceTree = "<group>";
+		};
+		2CCEE5B627B1995100461EFB = {
+			isa = PBXGroup;
+			children = (
+				2CCEE5C127B1995100461EFB /* Evenly Challenge */,
+				2CCEE5C027B1995100461EFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CCEE5C027B1995100461EFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEE5BF27B1995100461EFB /* Evenly Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CCEE5C127B1995100461EFB /* Evenly Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				2CA7606127B47BF10016623B /* Foursquare Link */,
+				2CA7604327B46C7C0016623B /* VenuesServices */,
+				2CA7604E27B46D440016623B /* VenuesModel */,
+				2CA5838B27B4541200AA7756 /* Main view */,
+				2CA5838A27B4540200AA7756 /* Map views */,
+				2CCEE5C227B1995100461EFB /* Evenly_ChallengeApp.swift */,
+				2CCEE5D427B1D5E900461EFB /* ContentView.swift */,
+				2CCEE5C627B1995100461EFB /* Assets.xcassets */,
+				2CCEE5C827B1995100461EFB /* Preview Content */,
+			);
+			path = "Evenly Challenge";
+			sourceTree = "<group>";
+		};
+		2CCEE5C827B1995100461EFB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CCEE5C927B1995100461EFB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CCEE5BE27B1995100461EFB /* Evenly Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CCEE5CD27B1995100461EFB /* Build configuration list for PBXNativeTarget "Evenly Challenge" */;
+			buildPhases = (
+				2CCEE5BB27B1995100461EFB /* Sources */,
+				2CCEE5BC27B1995100461EFB /* Frameworks */,
+				2CCEE5BD27B1995100461EFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Evenly Challenge";
+			productName = "Evenly Challenge";
+			productReference = 2CCEE5BF27B1995100461EFB /* Evenly Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CCEE5B727B1995100461EFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2CCEE5BE27B1995100461EFB = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2CCEE5BA27B1995100461EFB /* Build configuration list for PBXProject "Evenly Challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CCEE5B627B1995100461EFB;
+			productRefGroup = 2CCEE5C027B1995100461EFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CCEE5BE27B1995100461EFB /* Evenly Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CCEE5BD27B1995100461EFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCEE5CA27B1995100461EFB /* Preview Assets.xcassets in Resources */,
+				2CCEE5C727B1995100461EFB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CCEE5BB27B1995100461EFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCEE5D527B1D5E900461EFB /* ContentView.swift in Sources */,
+				2CA5837827B4341F00AA7756 /* MapView.swift in Sources */,
+				2CA7604727B46CCD0016623B /* FoursquareAPI.swift in Sources */,
+				2CA7605027B46D860016623B /* AnnotationType.swift in Sources */,
+				2CA7604D27B46D370016623B /* PersistencyManager.swift in Sources */,
+				2CA7605427B46DB50016623B /* Constants.swift in Sources */,
+				2CA7605827B46E420016623B /* Photo.swift in Sources */,
+				2CCEE5C327B1995100461EFB /* Evenly_ChallengeApp.swift in Sources */,
+				2CA5837A27B4348C00AA7756 /* FoursquareLink.swift in Sources */,
+				2CA5837C27B434F300AA7756 /* HomePageView.swift in Sources */,
+				2CA7605C27B46E750016623B /* SearchType.swift in Sources */,
+				2CA7604B27B46D0A0016623B /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2CCEE5CB27B1995100461EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CCEE5CC27B1995100461EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCEE5CE27B1995100461EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Evenly Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 3429RN28MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RasulMammadov.Evenly-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CCEE5CF27B1995100461EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Evenly Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = 3429RN28MU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RasulMammadov.Evenly-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CCEE5BA27B1995100461EFB /* Build configuration list for PBXProject "Evenly Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCEE5CB27B1995100461EFB /* Debug */,
+				2CCEE5CC27B1995100461EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CCEE5CD27B1995100461EFB /* Build configuration list for PBXNativeTarget "Evenly Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCEE5CE27B1995100461EFB /* Debug */,
+				2CCEE5CF27B1995100461EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CCEE5B727B1995100461EFB /* Project object */;
+}
